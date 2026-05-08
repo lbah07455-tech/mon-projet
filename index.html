@@ -8,15 +8,42 @@
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 80px;
+            min-height: 100vh;
+            margin: 0;
         }
-        h1 { font-size: 50px; }
+        h1 { font-size: 50px; margin-bottom: 10px; }
         p { font-size: 20px; }
+        .reseaux {
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
     <h1>Salut depuis GitHub !</h1>
     <p>Mon premier fichier de code marche 🎉</p>
     <p>Et maintenant il est stylé 😎</p>
+    
+    <div class="reseaux">
+        <a href="https://instagram.com/TON_PSEUDO" class="btn" target="_blank">Instagram</a>
+        <a href="https://wa.me/TON_NUMERO" class="btn" target="_blank">WhatsApp</a>
+        <a href="https://tiktok.com/@TON_PSEUDO" class="btn" target="_blank">TikTok</a>
+    </div>
 </body>
 </html>
